@@ -23,7 +23,7 @@ A way to develop speaking ability in conjunction with working through this deck,
 - This deck helps unlock the ability to understand the language, to recognise what you're hearing/reading.
 - Exposure to language puts it all in context, and from there you can start to speak.
 
-But between these there's a gap, and it takes time and exposure to the language to close it. It's also totally normal to be able to understand a lot more than you can speak - it's the same in our native languages, especially when we were learning them. A way to start bridging this gap is to say the audio that is speak the audio that is on the cards, and follow along with ****
+But between these there's a gap, and it takes time and exposure to the language to close it. It's also totally normal to be able to understand a lot more than you can speak - it's the same in our native languages, especially when we were learning them. A way to start bridging this gap is to say the audio that is speak the audio that is on the cards.
 
 
 Anki rewards a slow and steady game, and to get the most out of this you want to try to make a daily habit of doing your reviews.
