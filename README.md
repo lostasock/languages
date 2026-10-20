@@ -6,6 +6,10 @@ One folder per language, each with its own `index.html` and a password-locked de
 
 - `eastern-central-arrernte/`: https://lostasock.github.io/languages/eastern-central-arrernte/
 
-The page asks for the password and unlocks the deck in the browser. To update a deck, lock the new build
-with `scripts/encrypt_deck.py` in the (private) project, put the `.enc` file here, set the page's
-`data-file` to its name, and push.
+The page asks for the password and unlocks the deck in the browser. This folder sits next to the
+(private) Arrernte project, `AndroidStudioProjects/Arrernte`. To update the deck, run from there:
+
+    python scripts/encrypt_deck.py decks/<deck>.apkg ../languages/eastern-central-arrernte
+
+then set the page's `data-file` to the new `.enc` file's name, delete the old one, and push.
+The page text can be edited by hand: keep the tags, change the words.
