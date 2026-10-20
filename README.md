@@ -2,14 +2,27 @@
 
 Website: **https://lostasock.github.io/languages/**
 
-One folder per language, each with its own `index.html` and a password-locked deck (`.apkg.enc`):
+One folder per language, each with its own page and a password-locked deck (`.apkg.enc`):
 
 - `eastern-central-arrernte/`: https://lostasock.github.io/languages/eastern-central-arrernte/
 
-The page asks for the password and unlocks the deck in the browser. This folder sits next to the
-(private) Arrernte project, `AndroidStudioProjects/Arrernte`. To update the deck, run from there:
+## Editing the text
+
+Edit `page.md` (in the language's folder, or here for the list of languages): Markdown, so
+`# heading`, `## smaller heading`, `- list item`, `**bold**`, `*italic*`, `[link text](address)`,
+`---` for a line across. `{download}` is where the download link and password box go. Then run
+
+    python build_page.py
+
+which writes each `index.html` from its `page.md` (don't edit `index.html` itself). It needs the
+markdown package once: `python -m pip install markdown`.
+
+## Updating the deck
+
+This folder sits next to the (private) Arrernte project, `AndroidStudioProjects/Arrernte`. From
+there, lock the new build:
 
     python scripts/encrypt_deck.py decks/<deck>.apkg ../languages/eastern-central-arrernte
 
-then set the page's `data-file` to the new `.enc` file's name, delete the old one, and push.
-The page text can be edited by hand: keep the tags, change the words.
+then delete the old `.enc` file in that folder, run `python build_page.py` here (the page links
+to whichever `.enc` file is there), and push.
