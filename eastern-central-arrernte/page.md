@@ -18,9 +18,9 @@ If Anki asks to import the deck’s options, say yes: that sets 5 new cards a da
 
 This deck works with Anki, which is an app/platform for studying flashcards. The two main concepts of Anki are active recall and spaced repetition. Active recall means each flashcard actively tests you on something (and you answer how well you got it). Spaced repetition means you review the cards at intervals determined by your answers. So, harder cards you see more often, and easier cards less often.
 
-The goal of this style of language learning is, initially at least, recognition. Each card introduces one new piece of information at a time, and your goal is to understand the sentence. You rate yourself on how well you understood, and Anki manages when you review each card. Card by card, you will unlock the words and grammar to start to understand the language. I think it's important to learn how to pronounce the cards, but being able to remember how to speak these sentences is not the initial goal.
+The goal of this style of language learning is, initially at least, recognition. Each card introduces one new piece of information at a time, and your goal is to understand the sentence. You rate yourself on how well you understood, and Anki manages when you review each card. Card by card, you will unlock the words and grammar to start to understand the language. It's set out to be a bit of a puzzle - each card only defines the one new piece of information (there's no full translation), so it's up to you to fill in the rest from what you've already learnt.
 
-Alongside this deck, the way to develop speaking is exposure to the language (in-person, books, audio/video etc). Over time you will meet the language in many different contexts and develop a sense of how to speak it.
+I think it's important to learn how to pronounce the cards, but being able to remember how to speak these sentences is not the initial goal. Alongside this deck, the way to develop speaking is exposure to the language (in-person, books, audio/video etc). Over time you will meet the language in many different contexts and develop a sense of how to speak it.
 
 - This deck helps unlock the ability to understand the language, to recognise what you're hearing/reading.
 - Exposure to language puts it all in context, and from there you can start to speak.
@@ -43,4 +43,4 @@ The sentences and definitions in this deck have come from the following resource
 
 The sentences (text and audio) are exactly as they appear in the sources; only some definitions have been reworded for brevity. 
 
-This is a private test copy. Please don’t share the deck or the password. The material belongs to its authors, speakers and publishers, and I’ll ask for their permission before sharing it any more widely.
+This is a private test copy. Please don’t share the deck or the password. The material belongs to its authors, speakers and publishers, and I’ll ask for their permission before sharing it any more widely. This is a non-commercial project.
