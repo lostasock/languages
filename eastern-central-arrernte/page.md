@@ -12,7 +12,7 @@ At the moment the deck only has 29 cards, but as I check more, there will soon b
 - **Computer:** install [Anki](https://apps.ankiweb.net/) (free), download the deck and open the file.
 - **iPhone/iPad:** the app, [AnkiMobile](https://apps.apple.com/app/ankimobile-flashcards/id373493387), is paid. For free, use [AnkiWeb](https://ankiweb.net) in the browser (iOS or desktop): open the deck once in Anki on a computer, then press Sync (AnkiWeb can't import .apkg files).
 
-If Anki asks to import the deck’s options, say yes: that sets 5 new cards a day. If it doesn’t ask, change it in the deck options (Anki’s default of 20 is too many for this deck). 5 new cards a day doesn't sound like much, but once you start doing reviews, they can add up.
+If Anki asks to import the deck’s options, say yes: that sets 5 new cards a day. If it doesn’t ask, change it in the deck options (Anki’s default of 20 is too many for this deck). 5 new cards a day doesn't sound like much, but once you start doing reviews, they can add up. See how you go, you can increase if you wish.
 
 ## About the deck
 
@@ -33,13 +33,13 @@ Anki rewards a slow and steady game, and to get the most out of this you want to
 
 The sentences and definitions in this deck have come from the following resources:
 
-- Jenny Green, *A Learner's Guide to Eastern and Central Arrernte* (IAD Press), with its audio CD
-- *Learner's Wordlist of Eastern & Central Arrernte* (ECALL online dictionary)
-- *Eastern and Central Arrernte to English Dictionary* (IAD Press)
-- IAD Press Eastern & Central Arrernte picture dictionary
-- *Thirty Phrases That Everyone Living in Mparntwe Should Know*
-- David Wilkins, *Mparntwe Arrernte (Aranda): Studies in the structure and semantics of grammar* (1989)
-- *Angkentye Yerrtye Ileme*, Arrernte street signs, Mparntwe
+- Jenny Green, [*A Learner's Guide to Eastern and Central Arrernte*](https://callprojects.org.au/languages/arrernte) (IAD Press), with its audio CD
+- [*Learner's Wordlist of Eastern & Central Arrernte*](https://arrernte-angkentye.online/ecall/default.html) (ECALL online dictionary)
+- [*Eastern and Central Arrernte to English Dictionary*](https://www.iadpress.com.au/products/eastern-and-central-arrernte-to-english-dictionary-revised-edition) (IAD Press)
+- [IAD Press Eastern & Central Arrernte picture dictionary](https://iadpd.com.au/ecarrernte_category/ecarrernte/)
+- [*Thirty Phrases That Everyone Living in Mparntwe Should Know*](https://soundcloud.com/watch-this-space-ari/sets/thirty-phrases-that-everyone)
+- David Wilkins, [*Mparntwe Arrernte (Aranda): Studies in the structure and semantics of grammar*](https://openresearch-repository.anu.edu.au/handle/1885/9908) (1989)
+- [*Angkentye Yerrtye Ileme*](https://www.angkentye-yerrtye-ilemele-mpwarele.com/), Arrernte street signs, Mparntwe
 
 The sentences (text and audio) are exactly as they appear in the sources; only some definitions have been reworded for brevity. 
 
