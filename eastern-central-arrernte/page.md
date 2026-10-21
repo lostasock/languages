@@ -13,7 +13,7 @@ At the moment the deck only has 29 cards, but as I check more, there will soon b
 - **Computer:** install [Anki](https://apps.ankiweb.net/) (free), download the deck and open the file.
 - **iPhone/iPad:** the app, [AnkiMobile](https://apps.apple.com/app/ankimobile-flashcards/id373493387), is paid. For free, use [AnkiWeb](https://ankiweb.net) in the browser (iOS or desktop): open the deck once in Anki on a computer, then press Sync (AnkiWeb can't import .apkg files).
 
-If Anki asks to import the deck’s options, say yes: that sets 5 new cards a day. If it doesn’t ask, change it in the deck options (Anki’s default of 20 is too many for this deck). 5 new cards a day doesn't sound like much, but once you start doing reviews, they can add up. See how you go, you can increase if you wish.
+If Anki asks to import the deck’s options, say yes: that sets 5 new cards a day. If it doesn’t ask, change it in the deck options (Anki’s default of 20 is too many for this deck). 5 new cards a day doesn't sound like much, but once you start doing reviews, they can add up. See how you go, you can increase/decrease if you wish.
 
 ## About the deck
 
