@@ -11,6 +11,10 @@ and reload the page. index.html is written by this script: edit page.md, not ind
 after it is shown in grey: {download} *(29 cards for now)*. The link fetches the one
 locked deck (.apkg.enc) in the same folder, whatever its name.
 
+Pages are found one or two folders down (eastern-central-arrernte/page.md,
+eastern-central-arrernte/unpublished/page.md). A page in a folder named "unpublished" is for the
+deck owner only: nothing links to it, and it asks search engines not to list it.
+
 Needs the markdown package: python -m pip install markdown
 """
 import glob
@@ -29,7 +33,7 @@ HEAD = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<meta name="description" content="{title}">
+<meta name="description" content="{title}">{robots}
 <!-- Written by build_page.py from page.md: edit page.md, then run python build_page.py -->
 <style>
   :root {{
@@ -164,12 +168,15 @@ def build(md_path):
         script = SCRIPT
     out = os.path.join(folder, "index.html")
     with open(out, "w", encoding="utf-8", newline="\n") as f:
-        f.write(HEAD.format(title=html.escape(title)) + body + "\n" + TAIL.format(script=script))
+        robots = ('\n<meta name="robots" content="noindex, nofollow">'
+                  if os.path.basename(folder) == "unpublished" else "")
+        f.write(HEAD.format(title=html.escape(title), robots=robots) + body + "\n" + TAIL.format(script=script))
     print("wrote", os.path.relpath(out, HERE))
 
 
 def main():
-    pages = [os.path.join(HERE, "page.md")] + sorted(glob.glob(os.path.join(HERE, "*", "page.md")))
+    pages = ([os.path.join(HERE, "page.md")] + sorted(glob.glob(os.path.join(HERE, "*", "page.md")))
+             + sorted(glob.glob(os.path.join(HERE, "*", "*", "page.md"))))
     for p in pages:
         if os.path.exists(p):
             build(p)
