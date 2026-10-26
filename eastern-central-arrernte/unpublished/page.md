@@ -2,7 +2,7 @@
 
 Cards that are checked but not yet on the main page, for working through before they go out.
 
-{download} *(45 cards: the 35 on the main page plus cards 36-45)*
+{download} *(55 cards: the 43 on the main page plus cards 44-55)*
 
 *Last updated {updated}*
 
