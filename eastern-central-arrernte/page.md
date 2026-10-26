@@ -4,6 +4,8 @@ Hi, thanks for helping test out this flashcard deck!
 
 {download} *(password protected because it's still in testing)*
 
+*Last updated {updated}*
+
 At the moment the deck only has 43 cards, but as I check more, there will soon be a few hundred. It's still a work in progress, so there might be some things that don't make sense. Please let me know.  
 -Neeson.
 

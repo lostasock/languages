@@ -11,6 +11,9 @@ and reload the page. index.html is written by this script: edit page.md, not ind
 after it is shown in grey: {download} *(29 cards for now)*. The link fetches the one
 locked deck (.apkg.enc) in the same folder, whatever its name.
 
+{updated} in page.md becomes the date the deck was built, read from the deck's file name
+(..._43cards_2026-10-26.apkg.enc -> 26 October 2026), so it changes by itself with each new deck.
+
 Pages are found one or two folders down (eastern-central-arrernte/page.md,
 eastern-central-arrernte/unpublished/page.md). A page in a folder named "unpublished" is for the
 deck owner only: nothing links to it, and it asks search engines not to list it.
@@ -144,6 +147,20 @@ TAIL = """</main>
 """
 
 
+MONTHS = ("January February March April May June July August September October November "
+          "December").split()
+
+
+def deck_date(folder):
+    """The build date in the name of the folder's locked deck, written out: 26 October 2026."""
+    decks = glob.glob(os.path.join(folder, "*.apkg.enc"))
+    m = re.search(r"_(\d{4})-(\d{2})-(\d{2})(?:_\d+)?(?:_unpublished)?\.apkg\.enc$", decks[0]) if len(decks) == 1 else None
+    if not m:
+        sys.exit(f"{folder}: {{updated}} needs one locked deck with a date in its name")
+    y, mo, d = (int(x) for x in m.groups())
+    return f"{d} {MONTHS[mo - 1]} {y}"
+
+
 def build(md_path):
     folder = os.path.dirname(md_path)
     with open(md_path, encoding="utf-8") as f:
@@ -152,6 +169,8 @@ def build(md_path):
     if not title:
         sys.exit(f"{md_path}: the page needs a # heading on its first line")
     title = re.sub(r"[*_`]", "", title.group(1)).strip()
+    if "{updated}" in text:
+        text = text.replace("{updated}", deck_date(folder))
     body = markdown.markdown(text)
     script = ""
     if "{download}" in body:
