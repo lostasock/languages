@@ -2,11 +2,11 @@
 
 Hi, thanks for helping test out this flashcard deck!
 
-{download} *(password protected because it's still in testing)*
+{download} *(password protected)*
 
 *Last updated {updated}*
 
-At the moment the deck only has 64 cards, but as I check more, there will soon be a few hundred. It's still a work in progress, so there might be some things that don't make sense. Please let me know.  
+Currently the deck has 64 cards. It's still a work in progress, so there might be some things that don't make sense. Please let me know.  
 -Neeson.
 
 ## Getting started
@@ -44,6 +44,6 @@ The sentences and definitions in this deck have come from the following resource
 - David Wilkins, [*Mparntwe Arrernte (Aranda): Studies in the structure and semantics of grammar*](https://openresearch-repository.anu.edu.au/handle/1885/9908) (1989)
 - [*Angkentye Yerrtye Ileme*](https://www.angkentye-yerrtye-ilemele-mpwarele.com/), Arrernte street signs, Mparntwe
 
-The sentences (text and audio) are exactly as they appear in the sources; only some definitions have been reworded for brevity. 
+The sentences (text and audio) are exactly as they appear in the sources; some definitions have been reworded for brevity. 
 
 This is a private test copy. Please don’t share the deck or the password. The material belongs to its authors, speakers and publishers, and I’ll ask for their permission before sharing it any more widely. This is a non-commercial project.
