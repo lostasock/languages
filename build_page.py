@@ -14,9 +14,10 @@ locked deck (.apkg.enc) in the same folder, whatever its name.
 {updated} in page.md becomes the date the deck was built, read from the deck's file name
 (..._43cards_2026-10-26.apkg.enc -> 26 October 2026), so it changes by itself with each new deck.
 
-Pages are found one or two folders down (eastern-central-arrernte/page.md,
-eastern-central-arrernte/unpublished/page.md). A page in a folder named "unpublished" is for the
-deck owner only: nothing links to it, and it asks search engines not to list it.
+Pages are found one to three folders down (eastern-central-arrernte/page.md,
+eastern-central-arrernte/unpublished/pronunciation/page.md). A page in or under a folder named
+"unpublished" is for the deck owner only: nothing links to it, and it asks search engines not to
+list it.
 
 Needs the markdown package: python -m pip install markdown
 """
@@ -188,14 +189,15 @@ def build(md_path):
     out = os.path.join(folder, "index.html")
     with open(out, "w", encoding="utf-8", newline="\n") as f:
         robots = ('\n<meta name="robots" content="noindex, nofollow">'
-                  if os.path.basename(folder) == "unpublished" else "")
+                  if "unpublished" in os.path.relpath(folder, HERE).split(os.sep) else "")
         f.write(HEAD.format(title=html.escape(title), robots=robots) + body + "\n" + TAIL.format(script=script))
     print("wrote", os.path.relpath(out, HERE))
 
 
 def main():
     pages = ([os.path.join(HERE, "page.md")] + sorted(glob.glob(os.path.join(HERE, "*", "page.md")))
-             + sorted(glob.glob(os.path.join(HERE, "*", "*", "page.md"))))
+             + sorted(glob.glob(os.path.join(HERE, "*", "*", "page.md")))
+             + sorted(glob.glob(os.path.join(HERE, "*", "*", "*", "page.md"))))
     for p in pages:
         if os.path.exists(p):
             build(p)
