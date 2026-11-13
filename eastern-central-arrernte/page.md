@@ -6,7 +6,7 @@ Hi, thanks for helping test out this flashcard deck!
 
 *Last updated {updated}*
 
-Currently the deck has 249 cards. It's still a work in progress, so there might be some things that don't make sense. Please let me know.  
+Currently the deck has 249 cards. That covers most of the IAD Learner's Guide. Let me know if you have any troubles with it or things aren't clear.  
 -Neeson.
 
 ## Getting started
