@@ -6,7 +6,7 @@ Hi, thanks for helping test out this flashcard deck!
 
 *Last updated {updated}*
 
-Currently the deck has 131 cards. It's still a work in progress, so there might be some things that don't make sense. Please let me know.  
+Currently the deck has 136 cards. It's still a work in progress, so there might be some things that don't make sense. Please let me know.  
 -Neeson.
 
 ## Getting started
